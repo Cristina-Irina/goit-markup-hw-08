@@ -1,0 +1,40 @@
+.logo {
+  font-family: $logo-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.17;
+  margin-right: 70px;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 80px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+    font-size: 26px;
+    line-height: 1.19;
+  }
+
+  &::before {
+    content: 'Web';
+    color: $highlight-color;
+  }
+}
+
+.header__logo {
+  color: $black-text-color;
+}
+
+.footer__logo {
+  color: $white-color;
+  margin-left: 50px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 70px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 0;
+  }
+}
