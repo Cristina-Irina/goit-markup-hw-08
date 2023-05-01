@@ -168,6 +168,7 @@ textarea {
   color: $color_2;
   display: flex;
   align-items: center;
+  position: relative;
   @media screen and (max-width: 479px) {
     font-size: 10px;
     line-height: 1.11;
